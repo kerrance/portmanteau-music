@@ -21,26 +21,26 @@
 </div>
 
 <div class="limit" style="margin: 20px auto;">
-    <? include('portfolio/thewalkingdead.php'); ?> 
-    <? include('portfolio/extant.php'); ?> 
-    <? include('portfolio/adidas2.php'); ?> 
-    <? include('portfolio/freeview.php'); ?> 
-    <? include('portfolio/adidas.php'); ?> 
-    <? include('portfolio/mcdonalds.php'); ?> 
-    <? include('portfolio/lenovo.php'); ?> 
-    <? include('portfolio/thecanyons.php'); ?> 
-    <? include('portfolio/thefollowing.php'); ?> 
-    <? include('portfolio/theironlady.php'); ?> 
-    <? include('portfolio/royalpains.php'); ?> 
-    <? include('portfolio/battleoftheexes.php'); ?> 
-    <? include('portfolio/kinectstarwars.php'); ?> 
-    <? include('portfolio/thesacred.php'); ?> 
-    <? include('portfolio/thechallengerivals.php'); ?> 
-    <? include('portfolio/dirt3.php'); ?> 
-    <? include('portfolio/fastfive.php'); ?> 
-    <? include('portfolio/testdriveunlimited2.php'); ?>
-    <? include('portfolio/trueblood.php'); ?> 
-    <? include('portfolio/onetreehill.php'); ?>
+    <?php include('portfolio/thewalkingdead.php'); ?> 
+    <?php include('portfolio/extant.php'); ?> 
+    <?php include('portfolio/adidas2.php'); ?> 
+    <?php include('portfolio/freeview.php'); ?> 
+    <?php include('portfolio/adidas.php'); ?> 
+    <?php include('portfolio/mcdonalds.php'); ?> 
+    <?php include('portfolio/lenovo.php'); ?> 
+    <?php include('portfolio/thecanyons.php'); ?> 
+    <?php include('portfolio/thefollowing.php'); ?> 
+    <?php include('portfolio/theironlady.php'); ?> 
+    <?php include('portfolio/royalpains.php'); ?> 
+    <?php include('portfolio/battleoftheexes.php'); ?> 
+    <?php include('portfolio/kinectstarwars.php'); ?> 
+    <?php include('portfolio/thesacred.php'); ?> 
+    <?php include('portfolio/thechallengerivals.php'); ?> 
+    <?php include('portfolio/dirt3.php'); ?> 
+    <?php include('portfolio/fastfive.php'); ?> 
+    <?php include('portfolio/testdriveunlimited2.php'); ?>
+    <?php include('portfolio/trueblood.php'); ?> 
+    <?php include('portfolio/onetreehill.php'); ?>
 </div>
 
 <?php include 'footer.php'; ?>
