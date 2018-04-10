@@ -6,6 +6,11 @@ body {
 	background-color: $portmanteau-black;
 }
 
+.container {
+	padding-left: $padding;
+	padding-right: $padding;
+}
+
 img {
 	border: 0px;
 }
@@ -48,15 +53,14 @@ img.aligncenter {
 
 #content {
 	clear: both;
-	padding: 20px 0;
 	margin: 0 auto;
 }
 
 .featured_wrapper {
 	width: 100%;
 	clear: both;
-	padding: 20px 0;
-	margin: 20px auto;
+	padding: $padding;
+	margin: 0 auto;
 	background-color: $portmanteau-grey;
 }
 
