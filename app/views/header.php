@@ -35,7 +35,7 @@
 
 <body>
 	<header id="header">
-		<div class="container">    	
+		<div class="container">  
 			<div class="col-xs-12 col-sm-6 logo">
 				<a href="/">
 					<img 
@@ -46,7 +46,6 @@
 					alt="Portmanteau Music" 
 					width="337px" 
 					height="80px" 
-					class="img-responsive"
 					>
 				</a>
 			</div> 

@@ -1,6 +1,7 @@
 header {
-	padding: 20px 0;
+	padding: $padding;
 	background-color: $portmanteau-grey;
+	min-height: 80px;
 }
 
 .logo {
