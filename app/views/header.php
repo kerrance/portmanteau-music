@@ -1,13 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
 	<title>Portmanteau - music licensing agency.</title>
-	<link rel="stylesheet" href="/css/app.css" type="text/css" media="screen" />
 	<meta name="title" content="Portmanteau | portmanteaumusic.com" />
 	<meta name="description" content="Portmanteau is a UK based music licensing agency exclusively representing a range of European record labels, publishers and artists in order to place their music in audio-visual productions around the world. We represent both master and publishing copyrights in most cases and so can clear for use quickly and in 'one-stop'. Our extensive yet select catalogue of labels and publishers is carefully picked in order to offer quality and diversity covering many genres of music with a particular focus on cutting edge, emerging artists and 'buzz' bands." />
-	<meta name="theme-color" content="#ffffff">
 
+	<link rel="stylesheet" href="/css/app.css" type="text/css" media="screen" />
 	<link rel="image_src" href="/images/Portmanteau_LogoSquare.jpg" />
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/icons/apple-touch-icon-57x57.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/icons/apple-touch-icon-114x114.png" />
@@ -29,41 +30,34 @@
 	<meta name="msapplication-square150x150logo" content="/images/icons/mstile-150x150.png" />
 	<meta name="msapplication-wide310x150logo" content="/images/icons/mstile-310x150.png" />
 	<meta name="msapplication-square310x310logo" content="/images/icons/mstile-310x310.png" />
-
-	<script>
-		window.fbAsyncInit = function() {
-			FB.init({appId: 'your app id', status: true, cookie: true,
-				xfbml: true});
-		};
-		(function() {
-			var e = document.createElement('script'); e.async = true;
-			e.src = document.location.protocol +
-			'//connect.facebook.net/en_US/all.js';
-			document.getElementById('fb-root').appendChild(e);
-		}());
-	</script>
+	<meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
-	<div id="container">
-		<div id="header">    	
-			<div class="limit">
-				<ul id="logo">
-					<li>
-						<a href="http://www.portmanteauagency.com" class="logo"></a>
-					</li>
-				</ul> 
+	<header id="header">
+		<div class="container">    	
+			<div class="col-xs-12 col-sm-6 logo">
+				<a href="/">
+					<img 
+					src="/images/portmanteau-logo-white.png" 
+					srcset="
+					/images/portmanteau-logo-white.png 1x,
+					/images/portmanteau-logo-white@2x.png 2x" 
+					alt="Portmanteau Music" 
+					width="337px" 
+					height="80px" 
+					class="img-responsive"
+					>
+				</a>
+			</div> 
 
-				<div id="social">
-					<a href="http://www.facebook.com/pages/Portmanteau/146985045352713" target="_blank">
-						<span id="facebook_icon"></span>
-					</a>
-					<a href="http://twitter.com/PortmanteauUK" target="_blank">
-						<span id="twitter_icon"></span>
-					</a>
-				</div> 
-			</div>
+			<div class="col-xs-12 col-sm-6 social">
+				<a href="https://www.facebook.com/pages/Portmanteau/146985045352713" target="_blank" alt="Visit Portmanteau on Facebook">
+					<img src="/images/icons/facebook.svg" alt="Facebook icon">
+				</a>
+				<a href="https://twitter.com/PortmanteauUK" target="_blank" alt="Follow Portmanteau on Twitter">
+					<img src="/images/icons/twitter.svg" alt="Twitter icon">
+				</a>
+			</div> 
 		</div>
-		
-		<div id="content">
-			
+	</header>

@@ -1,0 +1,14 @@
+@media (max-width: $screen-xs-max) {
+	.logo,
+	.social {
+		clear: both;
+		float: none;
+		text-align: center;
+	}
+
+	.logo {
+		img {
+			margin: 0 auto;
+		}
+	}
+}

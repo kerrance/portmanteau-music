@@ -1,0 +1,33 @@
+header {
+	padding: 20px 0;
+	background-color: $portmanteau-grey;
+}
+
+.logo {
+	float: left;
+	text-align: left;
+}
+
+.social {
+	float: right;
+	text-align: right;
+
+	a {
+		display: inline-block;
+		height: 100%;
+		margin: 20px 10px;
+
+		&:first-of-type {
+			margin-left: 0;
+		}
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+
+	img {
+		width: 48px;
+		height: 48px;
+	}
+}
