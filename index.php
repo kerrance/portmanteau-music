@@ -21,10 +21,8 @@
 </div>
 
 <div class="limit" style="margin: 20px auto;">
-    <!-- 2015 -->
     <? include('portfolio/thewalkingdead.php'); ?> 
     <? include('portfolio/extant.php'); ?> 
-    <!-- 2014 and earlier -->
     <? include('portfolio/adidas2.php'); ?> 
     <? include('portfolio/freeview.php'); ?> 
     <? include('portfolio/adidas.php'); ?> 
