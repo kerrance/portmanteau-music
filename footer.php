@@ -7,7 +7,7 @@
 						About<br>
 					</span>
 					Portmanteau is a UK based music licensing agency<br>for audio-visual productions from around the world.<br><br>
-					Website by <a href="http://vestigemedia.com" target="_blank">Vestige Media</a>.<br><br>
+					Website by <a href="https://kerrilu.sh" target="_blank">Kerri Lush</a>. <br /><br />
 					&copy; <?php echo date('Y'); ?> <a href="http://portmanteauagency.com">Portmanteau Agency</a>.
 				</span>
 				<span style="float: right">
