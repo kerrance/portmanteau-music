@@ -1,4 +1,6 @@
-<?php include 'header.php'; ?>
+<?php
+  require_once 'views/header.php';
+?>
 
 <div id="portmanteaubacking">
     <div class="limit" style="margin: -20px auto; padding: 20px 0;">
@@ -43,4 +45,6 @@
     <?php include('portfolio/onetreehill.php'); ?>
 </div>
 
-<?php include 'footer.php'; ?>
+<?php
+  require_once 'views/footer.php';
+?>
