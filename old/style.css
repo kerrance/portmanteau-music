@@ -1,0 +1,342 @@
+/*
+Portmanteau Agency - Spring 2011 Website By Kerri @ Vestige Media
+http://vestigemedia.com
+sharp.kerri@gmail.com
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body,td,th {
+	color: #ffffff;
+	font-size: 12px;
+	text-align: justify;
+}
+
+body {
+	background: #1c1c1c;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+a:link {
+	color: #eeeeee;
+	text-decoration:none;
+}
+
+a:visited {
+	color: #eeeeee;
+	text-decoration:none;
+}
+
+a:hover {
+	color: #b0b0b0;
+	text-decoration:none;
+}
+
+a:active {
+	color: #eeeeee;
+	text-decoration:none;
+}
+
+img {
+	border: 0px;
+}
+
+.alignleft, img.alignleft {
+	display: inline;
+	float: left;
+}
+		
+.alignright, img.alignright {
+	display: inline;
+	float: right;
+}
+		
+.aligncenter, img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+		
+img.alignleft, img.alignright, img.aligncenter {
+	margin-bottom: 5px;
+}
+
+#container {
+	width: 676px;
+	margin: 50px auto;
+	background-image: url(img/Container_BG.jpg);
+	background-color: #000000;
+	background-attachment: scroll;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+#header {
+	width: 636px;
+	height: 186px;
+	padding: 70px 20px 10px;
+}
+
+	#logo {
+		width: 620px;
+		height: 146px;
+		list-style-type: none;
+		z-index: 100;
+		margin: 0 auto;
+		background-image: url(img/Header_PortmanteauLogo.png);
+	}
+	
+	#logo span {
+		display: none;
+	}
+	
+	#logo a {
+		display: block;
+		height: 146px;
+	}
+	
+	#logo .logo1 {
+		width: 620px;
+		margin: 0 auto;
+	}
+	
+	#navigation {
+		width: 432px;
+		height: 13px;
+		z-index: 100;
+		margin: -13px 5px 0 286px;
+		float: right;
+		position: relative;
+		overflow: hidden;
+	}
+	
+	#navigation a {
+		display: block;
+		height: 13px;
+		margin: 0 20px;
+		float: right;
+	}
+	
+	#navigation .about {
+		width: 58px;
+		background-image: url(img/Navigation_About.png);
+	}
+	
+	#navigation .recent {
+		width: 186px;
+		background-image: url(img/Navigation_RecentPlacements.png);
+	}
+	
+	#navigation .contact {
+		width: 79px;
+		margin: 0 0 0 20px;
+		background-image: url(img/Navigation_Contact.png);
+	}
+	
+	#social {
+		display: inline;
+		float: right;
+		margin: 15px 5px 2px 0;
+	}
+	
+	#facebook_icon {
+		width: 20px;
+		height: 20px;
+		float: left;
+		margin: 0 5px 0 0;
+		background-image: url(img/Social_Facebook.png);
+	}
+	
+	#twitter_icon {
+		width: 20px;
+		height: 20px;
+		float: left;
+		margin: 0 5px 0 0;
+		background-image: url(img/Social_Twitter.png);
+	}
+	
+	#fb-root {
+		width: 75px;
+		margin: 0 auto;
+		padding: 0;
+		float: left;
+	}
+	
+#content {
+	clear: both;
+}
+
+	.seperator {
+		height: 1px;
+		float: left;
+		margin: 0 0 0 10px;
+		padding: 6px 0;
+		background-image: url(img/Seperator.jpg);
+		background-repeat: repeat-x;
+		background-position: center;
+	}
+	
+	#row_intro {
+		width: 626px;
+		padding: 0 25px;
+		float: left;
+	}
+
+	#row {
+		width: 636px;
+		padding: 20px;
+		margin: 0 auto;
+		float: left;
+	}
+	
+	#row_text {
+		width: 627px;
+		padding: 20px 24px;
+		margin: 0 auto;
+		float: left;
+	}
+	
+	#column_about {
+		width: 195px;
+		float: right;
+		margin: 0 0 0 20px;
+	}
+	
+	.about_text {
+		text-indent: 50px;
+		padding: 1px 0 0 0;
+	}
+	
+	#column_contact {
+		width: 200px;
+		float: left;
+		margin: 0 0 0 10px;
+		color: #b0b0b0;
+	}
+	
+	#column_contact a {
+		color: #b0b0b0;
+	}
+	
+	#column_contact a:hover {
+		color: #ffffff;
+	}
+	
+	#column_phone {
+		width: 158px;
+		float: left;
+		margin: 0 0 0 10px;
+		color: #b0b0b0;
+	}
+	
+	#column_address {
+		width: 240px;
+		float: left;
+		margin: 0 0 0 10px;
+		color: #b0b0b0;
+	} 
+
+	#column {
+		width: 200px;
+		margin: 0 6px;
+		float: left;
+	}
+	
+	#entry {
+		width: 195px;
+		border: 1px solid #b0b0b0;
+		padding: 2.5px;
+	}
+	
+	#entry_featured {
+		width: 619px;
+		border: 1px solid #b0b0b0;
+		padding: 2.5px;
+	}
+	
+	.entry_header {
+		font-weight: 600;
+		text-transform: uppercase;
+		display: block;
+		color: #000000;
+		background-color: #ffffff;
+		width: 193px;
+		height: auto;
+		padding: 0 0 0 2px;
+		margin: -1px 0 2px 0;
+	}
+	
+	.entry_header_featured {
+		font-weight: 600;
+		text-transform: uppercase;
+		display: block;
+		color: #000000;
+		background-color: #ffffff;
+		width: 617px;
+		height: auto;
+		padding: 0 0 0 2px;
+		margin: -1px 0 2px 0;
+	}
+		
+	.entry_description {
+		width: 193px;
+		text-align: justify;
+		margin: 0 2px;
+	}
+	
+	.entry_italic {
+		width: 193px;
+		text-align: justify;
+		margin: 0 2px;
+		font-style: italic;
+	}
+	
+	.entry_description_featured {
+		width: 617px;
+		text-align: justify;
+		margin: 0 2px;
+	}
+	
+	.entry_italic_featured {
+		width: 617px;
+		text-align: justify;
+		margin: 0 2px;
+		font-style: italic;
+	}
+
+	
+	.email_icon {
+		width: 16px;
+		height: 16px;
+		float: left;
+		margin: 0 5px 0 0;
+		background-image: url(img/Icon_Email.png);
+	}
+	
+	.phone_icon {
+		width: 16px;
+		height: 16px;
+		float: left;
+		margin: 0 5px 0 0;
+		background-image: url(img/Icon_Phone.png);
+	}
+	
+	.post_icon {
+		width: 16px;
+		height: 16px;
+		float: left;
+		margin: 0 5px 0 0;
+		background-image: url(img/Icon_Post.png);
+	}
+	
+#footer {
+	width: 636px;
+	padding: 0 20px 18px;
+	text-align: center;
+	clear: both;
+	font-size: 10px;
+}
