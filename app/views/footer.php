@@ -1,6 +1,4 @@
-		</div>
-
-		<div id="footer">
+		<footer>
 			<div class="limit">
 				<span style="float: left">
 					<span class="exclaim_half">
@@ -40,7 +38,7 @@
 					</dl> 
 				</span>
 			</div>
-		</div>
+		</footer>
 	</div>
 </body>
 </html>
