@@ -1,0 +1,102 @@
+body {
+	color: $portmanteau-white;
+	font-size: $font-size-base;
+	text-align: justify;
+	font-family: $font-family-sans-serif;
+	background-color: $portmanteau-black;
+}
+
+.container {
+	padding-left: $padding;
+	padding-right: $padding;
+}
+
+img {
+	border: 0px;
+}
+
+.alignleft, 
+img.alignleft {
+	display: inline;
+	float: left;
+}
+
+.alignright, 
+img.alignright {
+	display: inline;
+	float: right;
+}
+
+.aligncenter, 
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alignleft, 
+img.alignright, 
+img.aligncenter {
+	margin-bottom: 5px;
+}
+
+#container {
+	width: 100%;
+	overflow: visible;
+}
+
+.limit {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#content {
+	clear: both;
+	margin: 0 auto;
+}
+
+.featured_wrapper {
+	width: 100%;
+	clear: both;
+	padding: $padding;
+	margin: 0 auto;
+	background-color: $portmanteau-grey;
+}
+
+.focus_container {
+	width: 1000px;
+	height: 335px;
+	margin: 20px auto 0;
+	border-right: 5px solid $portmanteau-grey;
+	overflow: hidden;
+}
+
+.focus_container dl {
+	margin: 10px auto 0;
+}
+
+.focus_img {
+	float: left;
+	width: 600px;
+}
+
+.focus_text {
+	float: right;
+	width: 360px;
+	margin: 0 0 0 0;
+}
+
+dl {
+	display: block;
+}
+
+dt {
+	float: left;
+	width: 100px;
+	color: $portmanteau-lightgrey;
+}
+
+dd {
+	margin-left: 100px;
+}
