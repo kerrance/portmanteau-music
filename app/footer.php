@@ -18,13 +18,13 @@
 					<dl>
 						<dt>Email</dt>
 						<dd>
-							<a href="mailto: info@portmanteaumusic.com">
+							<a href="mailto:info@portmanteaumusic.com">
 								info@portmanteaumusic.com
 							</a>
 						</dd>
 						<dt>Twitter</dt>
 						<dd>
-							<a href="http://twitter.com/PortmanteauUK" target="_blank">
+							<a href="https://twitter.com/PortmanteauUK" target="_blank">
 								@PortmanteauUK
 							</a>
 						</dd>

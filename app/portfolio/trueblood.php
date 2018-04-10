@@ -1,16 +1,16 @@
 <div class="focus_container">
 	<div class="focus_img">
-		<img src="/portfolio/img/royalpains.jpg">
+		<img src="/images/portfolio/trueblood.jpg">
 	</div>
 	
 	<div class="focus_text">
 		<dl>
 			<dt>Project</dt>
-			<dd>Royal Pains</dd>
+			<dd>True Blood</dd>
 			<dt>Client</dt>
-			<dd>Universal</dd>
+			<dd>HBO</dd>
 			<dt>Placement</dt>
-			<dd>'Danz' by Swiss Lips</dd>
+			<dd>'SOS' by Sennen</dd>
 		</dl>
 	</div>
 </div>

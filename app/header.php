@@ -3,12 +3,11 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Portmanteau - music licensing agency.</title>
-	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/css/app.css" type="text/css" media="screen" />
 	<meta name="title" content="Portmanteau | portmanteaumusic.com" />
 	<meta name="description" content="Portmanteau is a UK based music licensing agency exclusively representing a range of European record labels, publishers and artists in order to place their music in audio-visual productions around the world. We represent both master and publishing copyrights in most cases and so can clear for use quickly and in 'one-stop'. Our extensive yet select catalogue of labels and publishers is carefully picked in order to offer quality and diversity covering many genres of music with a particular focus on cutting edge, emerging artists and 'buzz' bands." />
-	<link rel="image_src" href="img/Portmanteau_LogoSquare.jpg" />
-	<link rel="shortcut icon" href="/img/favicon.ico" />
+	<link rel="image_src" href="/images/Portmanteau_LogoSquare.jpg" />
+	<link rel="shortcut icon" href="/images/favicon.ico" />
 	<script>
 		window.fbAsyncInit = function() {
 			FB.init({appId: 'your app id', status: true, cookie: true,

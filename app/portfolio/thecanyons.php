@@ -1,18 +1,18 @@
 <div class="focus_container">
 	<div class="focus_img">
-		<img src="/portfolio/img/onetreehill.jpg">
+		<img src="/images/portfolio/thecanyons.jpg">
 	</div>
 
 	<div class="focus_text">
 		<dl>
 			<dt>Project</dt>
-			<dd>One Tree Hill</dd>
+			<dd>The Canyons</dd>
 			<dt>Client</dt>
-			<dd>The CW</dd>
+			<dd>Canyons</dd>
 			<dt>Placement</dt>
 			<dd>
-				'Bizarre Love Triangle' <br/>
-				by Sennen
+				'February Blues' <br/>
+				by Cheval Sombre
 			</dd>
 		</dl>
 	</div>

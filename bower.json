@@ -1,0 +1,21 @@
+{
+  "name": "portmanteau",
+  "description": "Music Licensing Agency website by Kerri Lush",
+  "main": "app.js",
+  "authors": [
+    "Kerri Lush"
+  ],
+  "license": "MIT",
+  "homepage": "https://portmanteauagency.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

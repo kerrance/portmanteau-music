@@ -1,6 +1,6 @@
 <div class="focus_container">
 	<div class="focus_img">
-		<img src="/portfolio/img/testdriveunlimited2.jpg">
+		<img src="/images/portfolio/testdriveunlimited2.jpg">
 	</div>
 	
 	<div class="focus_text">

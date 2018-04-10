@@ -1,18 +1,18 @@
 <div class="focus_container">
 	<div class="focus_img">
-		<img src="/portfolio/img/thefollowing.jpg">
+		<img src="/images/portfolio/onetreehill.jpg">
 	</div>
 
 	<div class="focus_text">
 		<dl>
 			<dt>Project</dt>
-			<dd>The Following</dd>
+			<dd>One Tree Hill</dd>
 			<dt>Client</dt>
-			<dd>Fox Broadcasting Company</dd>
+			<dd>The CW</dd>
 			<dt>Placement</dt>
 			<dd>
-				'Fade Into You (Feat. Steffaloo)' <br />
-				by Stumbleine
+				'Bizarre Love Triangle' <br/>
+				by Sennen
 			</dd>
 		</dl>
 	</div>

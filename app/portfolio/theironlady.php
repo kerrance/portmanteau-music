@@ -1,16 +1,19 @@
 <div class="focus_container">
 	<div class="focus_img">
-		<img src="/portfolio/img/trueblood.jpg">
+		<img src="/images/portfolio/theironlady.jpg">
 	</div>
-	
+
 	<div class="focus_text">
 		<dl>
 			<dt>Project</dt>
-			<dd>True Blood</dd>
+			<dd>The Iron Lady</dd>
 			<dt>Client</dt>
-			<dd>HBO</dd>
+			<dd>Pathé</dd>
 			<dt>Placement</dt>
-			<dd>'SOS' by Sennen</dd>
+			<dd>
+				'I'm In Love With Margaret <br />
+				Thatcher' by Notsensibles
+			</dd>
 		</dl>
 	</div>
 </div>

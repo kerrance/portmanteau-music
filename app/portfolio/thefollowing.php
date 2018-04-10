@@ -1,18 +1,18 @@
 <div class="focus_container">
 	<div class="focus_img">
-		<img src="/portfolio/img/theironlady.jpg">
+		<img src="/images/portfolio/thefollowing.jpg">
 	</div>
 
 	<div class="focus_text">
 		<dl>
 			<dt>Project</dt>
-			<dd>The Iron Lady</dd>
+			<dd>The Following</dd>
 			<dt>Client</dt>
-			<dd>Pathé</dd>
+			<dd>Fox Broadcasting Company</dd>
 			<dt>Placement</dt>
 			<dd>
-				'I'm In Love With Margaret <br />
-				Thatcher' by Notsensibles
+				'Fade Into You (Feat. Steffaloo)' <br />
+				by Stumbleine
 			</dd>
 		</dl>
 	</div>

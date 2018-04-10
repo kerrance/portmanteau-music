@@ -1,5 +1,5 @@
 /*
-	Portmanteau Agency - 2013 Website By Kerri Lush
+	Portmanteau Agency - Website By Kerri Lush
 	https://kerrilu.sh
 	hello@kerrilu.sh
 */
@@ -98,7 +98,7 @@ img.aligncenter {
 	height: 80px;
 	list-style-type: none;
 	z-index: 100;
-	background-image: url(img/Header_PortmanteauLogo.png);
+	background-image: url(/images/Header_PortmanteauLogo.png);
 }
 
 #logo span {
@@ -125,7 +125,7 @@ img.aligncenter {
 	height: 32px;
 	float: left;
 	margin: 22px 10px 0 0;
-	background-image: url(img/Social_Facebook.png);
+	background-image: url(/images/Social_Facebook.png);
 }
 
 #twitter_icon {
@@ -133,7 +133,7 @@ img.aligncenter {
 	height: 32px;
 	float: left;
 	margin: 22px 0 0 0;
-	background-image: url(img/Social_Twitter.png);
+	background-image: url(/images/Social_Twitter.png);
 }
 
 #content {
@@ -143,7 +143,7 @@ img.aligncenter {
 }
 
 #portmanteaubacking {
-	background-image: url(img/Container_BG_trans.png);
+	background-image: url(/images/Container_BG_trans.png);
 	background-position: top;
 	background-repeat: no-repeat;
 }

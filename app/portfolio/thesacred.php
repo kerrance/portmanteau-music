@@ -1,18 +1,18 @@
 <div class="focus_container">
 	<div class="focus_img">
-		<img src="/portfolio/img/thecanyons.jpg">
+		<img src="/images/portfolio/thesacred.jpg">
 	</div>
-
+	
 	<div class="focus_text">
 		<dl>
 			<dt>Project</dt>
-			<dd>The Canyons</dd>
+			<dd>The Sacred</dd>
 			<dt>Client</dt>
-			<dd>Canyons</dd>
+			<dd>Incognito Pictures</dd>
 			<dt>Placement</dt>
 			<dd>
-				'February Blues' <br/>
-				by Cheval Sombre
+				'The Distance From A to B' <br />
+				by Sennen
 			</dd>
 		</dl>
 	</div>
