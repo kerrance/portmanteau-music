@@ -10,9 +10,11 @@
 @import "layout/base";
 @import "layout/footer";
 @import "layout/header";
+@import "layout/hero";
 
 // Type
 @import "type/links";
 
 // Media Queries
-@import "layout/header-mq"
+@import "layout/header-mq";
+@import "layout/hero-mq";

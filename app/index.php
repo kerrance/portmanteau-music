@@ -2,19 +2,11 @@
 require_once 'views/header.php';
 ?>
 
+<?php
+require_once 'views/hero.php';
+?>
+
 <div id="content">
-    <div id="portmanteaubacking">
-        <div class="limit" style="margin: -20px auto; padding: 20px 0;">
-            <span class="exclaim_half" style="float: left; margin:0 0 20px 0;">         	
-                Portmanteau represents a range of record labels, publishers and artists in order to place their music in audio-visual productions from around the world - online, on television and in film. We cover both master and publishing copyrights in the majority of cases and so can clear for use quickly and in 'one-stop'.
-            </span>
-
-            <p>
-                Our extensive yet select catalogue of labels and publishers is carefully picked in order to offer quality and diversity covering many genres of music with a particular focus on cutting edge, emerging artists and 'buzz' bands.  
-            </p>  
-        </div>	        
-    </div>
-
     <div class="featured_wrapper">
         <div class="limit">
             <span class="exclaim_half">
