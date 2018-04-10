@@ -1,0 +1,26 @@
+// Font
+$font-family-sans-serif: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+$font-size-base: 16px;
+
+// Portmanteau Brand
+$portmanteau-black: #000000;
+$portmanteau-grey: #1c1c1c;
+$portmanteau-lightgrey: #b0b0b0;
+$portmanteau-off-white: #eeeeee;
+$portmanteau-white: #ffffff;
+
+// Bootstrap overrides
+// Typography
+$text-color: $portmanteau-white;
+$link-color: $portmanteau-lightgrey;
+$gray-base: $portmanteau-grey;
+$brand-primary: $portmanteau-grey;
+$headings-font-weight: normal;
+
+// Navigation
+$nav-font-color: $portmanteau-white;
+
+// Buttons
+$btn-primary-bg: $portmanteau-grey;
+$btn-font-weight: bold;
+$btn-default-border: transparent;
