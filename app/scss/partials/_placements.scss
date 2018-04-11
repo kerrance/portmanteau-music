@@ -1,0 +1,16 @@
+.placements {
+	padding: $padding;
+}
+
+.placement {
+	border-right: 5px solid $portmanteau-grey;
+
+	img {
+		max-width: 100%;
+	}
+	
+	dl {
+		margin: 0 auto;
+		margin-top: $padding;
+	}
+}
