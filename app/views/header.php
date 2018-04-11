@@ -36,27 +36,30 @@
 <body>
 	<header id="header">
 		<div class="container">  
-			<div class="col-xs-12 col-sm-6 logo">
-				<a href="/">
-					<img 
-					src="/images/portmanteau-logo-white.png" 
-					srcset="
-					/images/portmanteau-logo-white.png 1x,
-					/images/portmanteau-logo-white@2x.png 2x" 
-					alt="Portmanteau Music" 
-					width="337px" 
-					height="80px" 
-					>
-				</a>
-			</div> 
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 logo">
+					<a href="/">
+						<img 
+						src="/images/portmanteau-logo-white.png" 
+						srcset="
+						/images/portmanteau-logo-white.png 1x,
+						/images/portmanteau-logo-white@2x.png 2x" 
+						alt="Portmanteau Music" 
+						width="337px" 
+						height="80px" 
+						class="img-responsive"
+						>
+					</a>
+				</div> 
 
-			<div class="col-xs-12 col-sm-6 social">
-				<a href="https://www.facebook.com/pages/Portmanteau/146985045352713" target="_blank" alt="Visit Portmanteau on Facebook">
-					<img src="/images/icons/facebook.svg" alt="Facebook icon">
-				</a>
-				<a href="https://twitter.com/PortmanteauUK" target="_blank" alt="Follow Portmanteau on Twitter">
-					<img src="/images/icons/twitter.svg" alt="Twitter icon">
-				</a>
-			</div> 
+				<div class="col-xs-12 col-sm-6 social">
+					<a href="https://www.facebook.com/pages/Portmanteau/146985045352713" target="_blank" alt="Visit Portmanteau on Facebook">
+						<img src="/images/icons/facebook.svg" alt="Facebook icon">
+					</a>
+					<a href="https://twitter.com/PortmanteauUK" target="_blank" alt="Follow Portmanteau on Twitter">
+						<img src="/images/icons/twitter.svg" alt="Twitter icon">
+					</a>
+				</div> 
+			</div>
 		</div>
 	</header>
