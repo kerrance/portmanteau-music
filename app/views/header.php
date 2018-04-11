@@ -9,7 +9,7 @@
 	<meta name="description" content="Portmanteau is a UK based music licensing agency exclusively representing a range of European record labels, publishers and artists in order to place their music in audio-visual productions around the world. We represent both master and publishing copyrights in most cases and so can clear for use quickly and in 'one-stop'. Our extensive yet select catalogue of labels and publishers is carefully picked in order to offer quality and diversity covering many genres of music with a particular focus on cutting edge, emerging artists and 'buzz' bands." />
 
 	<link rel="stylesheet" href="/css/app.css" type="text/css" media="screen" />
-	<link rel="image_src" href="/images/Portmanteau_LogoSquare.jpg" />
+	<link rel="image_src" href="/images/portmanteau-logo-square.jpg" />
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/icons/apple-touch-icon-57x57.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/icons/apple-touch-icon-114x114.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/icons/apple-touch-icon-72x72.png" />
