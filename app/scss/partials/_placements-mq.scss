@@ -13,7 +13,6 @@
 @media (max-width: $screen-xs-max) {
 	.placement {
 		margin-top: $padding;
-		padding: 0;
 		padding-top: $padding;
 	}
 
@@ -26,6 +25,7 @@
 
 		&:last-of-type {
 			.placement {
+				padding-top: 0;
 				padding-bottom: 0;
 
 				dl {
