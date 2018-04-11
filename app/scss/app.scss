@@ -12,9 +12,11 @@
 @import "layout/header";
 @import "layout/hero";
 
-// Type
-@import "type/links";
-@import "type/paragraph";
+// Content
+@import "content/alignment";
+@import "content/links";
+@import "content/lists";
+@import "content/paragraph";
 
 // Media Queries
 @import "layout/header-mq";
