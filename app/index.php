@@ -9,10 +9,12 @@ require_once 'views/hero.php';
 <div class="content">
     <div class="feature">
         <div class="container">
-            <div class="col-md-12">
-                <p class="exclaim half">
-                    Some of our recent placements...
-                </p>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>
+                        Some of our recent placements...
+                    </h2>
+                </div>
             </div>
         </div>
     </div>

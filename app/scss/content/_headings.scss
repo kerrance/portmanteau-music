@@ -1,0 +1,17 @@
+h2 {
+	font-size: 26px;
+	line-height: 34px;
+}
+
+.feature {
+	margin-top: $padding;
+	padding: $padding;
+	background-color: $portmanteau-grey;
+	text-align: left;
+
+	h2 {
+		&:last-of-type {
+			margin: 0;
+		}
+	}
+}
