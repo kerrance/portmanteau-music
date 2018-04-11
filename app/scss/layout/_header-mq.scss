@@ -13,6 +13,14 @@
 	}
 }
 
+@media (min-width: $screen-sm-min) {
+	.logo {
+		a {
+			width: 337px;
+		}
+	}
+}
+
 @media (max-width: $screen-xs-max) {
 	.logo,
 	.social {
