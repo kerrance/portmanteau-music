@@ -1,17 +1,15 @@
 # Portmanteau Agency
-Music Licensing Agency
 
-This basic website is intended to showcase the sync-placements for the Portmanteau Agency.
+🍿
 
-I built this one-pager myself in 2013 and modernised it in 2018.
+## Development
 
-### Instructions
-* Clone the repo onto your machine and navigate to the root of the project.
-* Run `npm install` (or `yarn`) to ensure all Node packages are ready for use.
-* Run `bower install` to install frontend packages.
-* Use `gulp` to quickly compile source files from `/app` to the `/build` folder.
-* Create a local server and view the website in your browser with `gulp watch`.
-* To create a production-ready, minified build, run `gulp production`.
+Clone the repo and run `bundle install` to grab the requirement packages (you may need to sandbox your Ruby via `RVM` or similar). Once installed, use `bundle exec jekyll serve` to kick up a local development environment.
 
-All source files can be found in the `/app` folder. These are compiled and
-minified into the `/build` folder with `gulp production`.
+## Updating
+
+Run `bundle update` to ensure Jekyll stack is kept up-to-date.
+
+## Deploying
+
+Push any updates on a feature branch and create a pull request. Anything on `master` will automatically deploy live through Github Pages.
