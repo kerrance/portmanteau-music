@@ -4,33 +4,413 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Portmanteau - music licensing agency.</title>
-    <meta name="title" content="Portmanteau | portmanteaumusic.com" />
     <meta
       name="description"
       content="Portmanteau is a UK based music licensing agency exclusively representing a range of European record labels, publishers and artists in order to place their music in audio-visual productions around the world. We represent both master and publishing copyrights in most cases and so can clear for use quickly and in 'one-stop'. Our extensive yet select catalogue of labels and publishers is carefully picked in order to offer quality and diversity covering many genres of music with a particular focus on cutting edge, emerging artists and 'buzz' bands."
     />
-    <link rel="stylesheet" href="css/app.css" type="text/css" media="screen" />
-    <link rel="image_src" href="images/portmanteau-logo-square.jpg" />
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/icons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/icons/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/icons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/icons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/icons/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="images/icons/favicon-196x196.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="images/icons/favicon-96x96.png" sizes="96x96" />
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://portmanteaumusic.com/" />
+    <meta property="og:title" content="Portmanteau | Music Licensing Agency" />
+    <meta property="og:description" content="Portmanteau is a UK based music licensing agency exclusively representing a range of European record labels, publishers and artists in order to place their music in audio-visual productions around the world." />
+    <meta property="og:image" content="https://portmanteaumusic.com/images/portmanteau-logo-square.jpg" />
+    <style>
+      /* ============================================
+         RESET / BASE
+         ============================================ */
+
+      *, *:before, *:after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-family: sans-serif;
+        font-size: 10px;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 16px;
+        line-height: 1.42857;
+        color: #ffffff;
+        background-color: #000000;
+        text-align: justify;
+      }
+
+      article, aside, details, figcaption, figure,
+      footer, header, hgroup, main, menu, nav,
+      section, summary {
+        display: block;
+      }
+
+      img {
+        border: 0;
+        vertical-align: middle;
+      }
+
+      a {
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:active, a:hover {
+        outline: 0;
+      }
+
+      a:link, a:visited, a:active {
+        color: #b0b0b0;
+      }
+
+      a:hover {
+        color: #eeeeee;
+      }
+
+      a:focus {
+        outline: 5px auto -webkit-focus-ring-color;
+        outline-offset: -2px;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        font-family: inherit;
+        font-weight: normal;
+        line-height: 1.1;
+        color: inherit;
+        margin-top: 22px;
+        margin-bottom: 11px;
+      }
+
+      h2 {
+        font-size: 26px;
+        line-height: 34px;
+      }
+
+      p {
+        margin: 0 0 11px;
+      }
+
+      dl {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 22px;
+      }
+
+      dt {
+        line-height: 1.42857;
+        font-weight: bold;
+        float: left;
+        width: 100px;
+        color: #b0b0b0;
+      }
+
+      dd {
+        line-height: 1.42857;
+        margin-left: 100px;
+        text-align: left;
+      }
+
+      /* ============================================
+         GRID (only used classes: col-xs-12, col-sm-4,
+         col-sm-6, col-md-12)
+         ============================================ */
+
+      .container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .container:before, .container:after {
+        content: " ";
+        display: table;
+      }
+
+      .container:after {
+        clear: both;
+      }
+
+      @media (min-width: 768px) {
+        .container { width: 750px; }
+      }
+
+      @media (min-width: 992px) {
+        .container { width: 970px; }
+      }
+
+      @media (min-width: 1200px) {
+        .container { width: 1170px; }
+      }
+
+      .row {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+
+      .row:before, .row:after {
+        content: " ";
+        display: table;
+      }
+
+      .row:after {
+        clear: both;
+      }
+
+      .col-xs-12,
+      .col-sm-4,
+      .col-sm-6,
+      .col-md-12 {
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      .col-xs-12 {
+        float: left;
+        width: 100%;
+      }
+
+      @media (min-width: 768px) {
+        .col-sm-4,
+        .col-sm-6 {
+          float: left;
+        }
+
+        .col-sm-4 { width: 33.33333%; }
+        .col-sm-6 { width: 50%; }
+      }
+
+      @media (min-width: 992px) {
+        .col-md-12 {
+          float: left;
+          width: 100%;
+        }
+      }
+
+      /* ============================================
+         IMAGES
+         ============================================ */
+
+      .img-responsive {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* ============================================
+         LAYOUT
+         ============================================ */
+
+      header {
+        padding: 20px;
+        background-color: #1c1c1c;
+        min-height: 80px;
+      }
+
+      footer {
+        padding: 20px;
+        background-color: #1c1c1c;
+      }
+
+      .logo {
+        float: left;
+        text-align: left;
+      }
+
+      .logo a {
+        height: 100%;
+        display: block;
+      }
+
+      .hero {
+        background-image: url(/images/logo-bg-trans.png);
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+      }
+
+      .feature {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #1c1c1c;
+        text-align: left;
+      }
+
+      .feature h2:last-of-type {
+        margin: 0;
+      }
+
+      .placements {
+        padding: 20px;
+      }
+
+      .placement {
+        padding-bottom: 20px;
+      }
+
+      .placement img {
+        max-width: 100%;
+      }
+
+      .placement dl {
+        margin-top: 20px;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-left: auto;
+      }
+
+      .exclaim {
+        font-weight: lighter;
+        font-size: 52px;
+        line-height: 68px;
+      }
+
+      .exclaim.half {
+        font-size: 26px;
+        line-height: 34px;
+      }
+
+      /* ============================================
+         RESPONSIVE
+         ============================================ */
+
+      @media (max-width: 767px) {
+        dt {
+          float: none;
+          width: 100%;
+        }
+
+        dd {
+          width: 100%;
+          margin-left: 0;
+        }
+
+        .logo {
+          clear: both;
+          float: none;
+          text-align: center;
+        }
+
+        .logo img {
+          margin: 0 auto;
+        }
+
+        .placement {
+          margin-top: 20px;
+          padding-top: 20px;
+        }
+
+        .row:first-of-type .placement {
+          margin-top: 0;
+        }
+
+        .row:last-of-type .placement {
+          padding-top: 0;
+          padding-bottom: 0;
+        }
+
+        .row:last-of-type .placement dl {
+          padding-bottom: 0;
+          margin-bottom: 0;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .logo a {
+          width: 337px;
+        }
+
+        .placements .row:last-of-type .placement {
+          padding-bottom: 0;
+        }
+      }
+
+      @media (min-width: 992px) {
+        header {
+          height: 34vh;
+          position: relative;
+        }
+
+        header .container {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          padding-bottom: 20px;
+        }
+
+        .hero {
+          height: 66vh;
+          min-height: 200px;
+          position: relative;
+        }
+
+        .hero .container {
+          height: fit-content;
+          margin: auto;
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          padding-top: 20px;
+        }
+      }
+
+      /* ============================================
+         PRINT
+         ============================================ */
+
+      @media print {
+        *, *:before, *:after {
+          background: transparent !important;
+          color: #000 !important;
+          box-shadow: none !important;
+          text-shadow: none !important;
+        }
+
+        a, a:visited {
+          text-decoration: underline;
+        }
+
+        a[href]:after {
+          content: " (" attr(href) ")";
+        }
+
+        a[href^="#"]:after,
+        a[href^="javascript:"]:after {
+          content: "";
+        }
+
+        img {
+          max-width: 100% !important;
+          page-break-inside: avoid;
+        }
+
+        p, h2, h3 {
+          orphans: 3;
+          widows: 3;
+        }
+
+        h2, h3 {
+          page-break-after: avoid;
+        }
+      }
+    </style>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon-152x152.png" />
     <link rel="icon" type="image/png" href="images/icons/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="images/icons/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="images/icons/favicon-128.png" sizes="128x128" />
     <meta name="application-name" content="Portmanteau Music" />
     <meta name="msapplication-TileColor" content="#FFFFFF" />
     <meta name="msapplication-TileImage" content="images/icons/mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="images/icons/mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="images/icons/mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="images/icons/mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="images/icons/mstile-310x310.png" />
     <meta name="theme-color" content="#ffffff" />
   </head>
 
@@ -54,8 +434,8 @@
 
     <div class="hero">
       <div class="container">
-        <div class="col-md-12">
-          <div class="row">
+        <div class="row">
+          <div class="col-md-12">
             <p class="exclaim half">
               Portmanteau represents a range of record labels, publishers and artists in order to place their music in
               audio-visual productions from around the world - online, on television and in film. We cover both master
@@ -87,13 +467,13 @@
         <div class="container">
           <div class="row">
             <section class="placement col-xs-12 col-sm-4" id="the-walking-dead">
-              <a href="//youtube.com/watch?v=sUlVo-jvG1o" target="_blank">
+              <a href="https://youtube.com/watch?v=sUlVo-jvG1o" target="_blank">
                 <img
                   src="images/portfolio/the-walking-dead.jpg"
                   srcset="images/portfolio/the-walking-dead.jpg 1x, images/portfolio/the-walking-dead@2x.jpg 2x"
                   alt="The Walking Dead, Season 5"
-                  width="300px"
-                  height="167px"
+                  width="300"
+                  height="167"
                   class="img-responsive"
                 />
               </a>
@@ -109,9 +489,6 @@
                 <dd>'Love and Mercy' by Gazelle Twin</dd>
               </dl>
 
-              <a href="//youtube.com/watch?v=sUlVo-jvG1o" target="_blank">
-                <button type="button" class="btn btn-primary">Watch "The Walking Dead, Season 5" on YouTube</button>
-              </a>
             </section>
 
             <section class="placement col-xs-12 col-sm-4" id="extant">
@@ -119,8 +496,8 @@
                 src="images/portfolio/extant.jpg"
                 srcset="images/portfolio/extant.jpg 1x, images/portfolio/extant@2x.jpg 2x"
                 alt="Extant, Season 2"
-                width="300px"
-                height="167px"
+                width="300"
+                height="167"
                 class="img-responsive"
               />
 
@@ -137,13 +514,13 @@
             </section>
 
             <section class="placement col-xs-12 col-sm-4" id="adidas-2">
-              <a href="//player.vimeo.com/video/80781460" target="_blank">
+              <a href="https://player.vimeo.com/video/80781460" target="_blank">
                 <img
                   src="images/portfolio/adidas-2.jpg"
                   srcset="images/portfolio/adidas-2.jpg 1x, images/portfolio/adidas-2@2x.jpg 2x"
                   alt="Adidas Originals: NBA Party"
-                  width="300px"
-                  height="167px"
+                  width="300"
+                  height="167"
                   class="img-responsive"
                 />
               </a>
@@ -159,21 +536,18 @@
                 <dd>'P.A.R.T.Y. (feat. Wax &amp; Herbal T)' by Lack of Afro</dd>
               </dl>
 
-              <a href="//player.vimeo.com/video/80781460" target="_blank">
-                <button type="button" class="btn btn-primary">Watch "Adidas Originals: NBA Party" on Vimeo</button>
-              </a>
             </section>
           </div>
 
           <div class="row">
             <section class="placement col-xs-12 col-sm-4" id="freeview">
-              <a href="//youtube.com/watch?v=zxfnZx2dMto" target="_blank">
+              <a href="https://youtube.com/watch?v=zxfnZx2dMto" target="_blank">
                 <img
                   src="images/portfolio/freeview.jpg"
                   srcset="images/portfolio/freeview.jpg 1x, images/portfolio/freeview@2x.jpg 2x"
                   alt="Hundreds and Thousands"
-                  width="300px"
-                  height="167px"
+                  width="300"
+                  height="167"
                   class="img-responsive"
                 />
               </a>
@@ -189,19 +563,16 @@
                 <dd>'Everest' by Public Service Broadcasting</dd>
               </dl>
 
-              <a href="//youtube.com/watch?v=zxfnZx2dMto" target="_blank">
-                <button type="button" class="btn btn-primary">Watch "Hundreds and Thousands" on YouTube</button>
-              </a>
             </section>
 
             <section class="placement col-xs-12 col-sm-4" id="adidas">
-              <a href="//youtube.com/watch?v=40eQl9MpnaY" target="_blank">
+              <a href="https://youtube.com/watch?v=40eQl9MpnaY" target="_blank">
                 <img
                   src="images/portfolio/adidas.jpg"
                   srcset="images/portfolio/adidas.jpg 1x, images/portfolio/adidas@2x.jpg 2x"
                   alt="ZX100"
-                  width="300px"
-                  height="167px"
+                  width="300"
+                  height="167"
                   class="img-responsive"
                 />
               </a>
@@ -217,19 +588,16 @@
                 <dd>'ZX100' by TronMajor</dd>
               </dl>
 
-              <a href="//youtube.com/watch?v=40eQl9MpnaY" target="_blank">
-                <button type="button" class="btn btn-primary">Watch "ZX100" on YouTube</button>
-              </a>
             </section>
 
             <section class="placement col-xs-12 col-sm-4" id="mcdonalds">
-              <a href="//youtube.com/watch?v=qIvY73HfJWM" target="_blank">
+              <a href="https://youtube.com/watch?v=qIvY73HfJWM" target="_blank">
                 <img
                   src="images/portfolio/mcdonalds.jpg"
                   srcset="images/portfolio/mcdonalds.jpg 1x, images/portfolio/mcdonalds@2x.jpg 2x"
                   alt="Parallel Lives"
-                  width="300px"
-                  height="167px"
+                  width="300"
+                  height="167"
                   class="img-responsive"
                 />
               </a>
@@ -246,21 +614,18 @@
                 <dd>'Sick Style' (feat. Maksim) <br />(Dub Mix) by Habstrakt</dd>
               </dl>
 
-              <a href="//youtube.com/watch?v=qIvY73HfJWM" target="_blank">
-                <button type="button" class="btn btn-primary">Watch "Parallel Lives" on YouTube</button>
-              </a>
             </section>
           </div>
 
           <div class="row">
             <section class="placement col-xs-12 col-sm-4" id="lenovo">
-              <a href="//youtube.com/watch?v=TAbuxj4KsDw" target="_blank">
+              <a href="https://youtube.com/watch?v=TAbuxj4KsDw" target="_blank">
                 <img
                   src="images/portfolio/lenovo.jpg"
                   srcset="images/portfolio/lenovo.jpg 1x, images/portfolio/lenovo@2x.jpg 2x"
                   alt="The Pursuit"
-                  width="300px"
-                  height="167px"
+                  width="300"
+                  height="167"
                   class="img-responsive"
                 />
               </a>
@@ -276,9 +641,6 @@
                 <dd>'The Pursuit' by Aeph</dd>
               </dl>
 
-              <a href="//youtube.com/watch?v=TAbuxj4KsDw" target="_blank">
-                <button type="button" class="btn btn-primary">Watch "The Pursuit" on YouTube</button>
-              </a>
             </section>
 
             <section class="placement col-xs-12 col-sm-4" id="the-canyons">
@@ -286,8 +648,8 @@
                 src="images/portfolio/the-canyons.jpg"
                 srcset="images/portfolio/the-canyons.jpg 1x, images/portfolio/the-canyons@2x.jpg 2x"
                 alt="The Canyons"
-                width="300px"
-                height="167px"
+                width="300"
+                height="167"
                 class="img-responsive"
               />
 
@@ -305,8 +667,8 @@
                 src="images/portfolio/the-following.jpg"
                 srcset="images/portfolio/the-following.jpg 1x, images/portfolio/the-following@2x.jpg 2x"
                 alt="The Following"
-                width="300px"
-                height="167px"
+                width="300"
+                height="167"
                 class="img-responsive"
               />
 
@@ -329,8 +691,8 @@
                 src="images/portfolio/the-iron-lady.jpg"
                 srcset="images/portfolio/the-iron-lady.jpg 1x, images/portfolio/the-iron-lady@2x.jpg 2x"
                 alt="The Iron Lady"
-                width="300px"
-                height="167px"
+                width="300"
+                height="167"
                 class="img-responsive"
               />
 
@@ -351,8 +713,8 @@
                 src="images/portfolio/royal-pains.jpg"
                 srcset="images/portfolio/royal-pains.jpg 1x, images/portfolio/royal-pains@2x.jpg 2x"
                 alt="Royal Pains"
-                width="300px"
-                height="167px"
+                width="300"
+                height="167"
                 class="img-responsive"
               />
 
@@ -373,8 +735,8 @@
                 src="images/portfolio/battle-of-the-exes.jpg"
                 srcset="images/portfolio/battle-of-the-exes.jpg 1x, images/portfolio/battle-of-the-exes@2x.jpg 2x"
                 alt="Battle of the Exes"
-                width="300px"
-                height="167px"
+                width="300"
+                height="167"
                 class="img-responsive"
               />
 
@@ -393,13 +755,13 @@
 
           <div class="row">
             <section class="placement col-xs-12 col-sm-4" id="kinect-star-wars">
-              <a href="//youtube.com/watch?v=HVr1XA0RXeM" target="_blank">
+              <a href="https://youtube.com/watch?v=HVr1XA0RXeM" target="_blank">
                 <img
                   src="images/portfolio/kinect-star-wars.jpg"
                   srcset="images/portfolio/kinect-star-wars.jpg 1x, images/portfolio/kinect-star-wars@2x.jpg 2x"
                   alt="Kinect Star Wars"
-                  width="300px"
-                  height="167px"
+                  width="300"
+                  height="167"
                   class="img-responsive"
                 />
               </a>
@@ -415,9 +777,6 @@
                 <dd>'Demons' by South Central</dd>
               </dl>
 
-              <a href="//youtube.com/watch?v=HVr1XA0RXeM" target="_blank">
-                <button type="button" class="btn btn-primary">Watch "Kinect Star Wars" on YouTube</button>
-              </a>
             </section>
 
             <section class="placement col-xs-12 col-sm-4" id="the-sacred">
@@ -425,8 +784,8 @@
                 src="images/portfolio/the-sacred.jpg"
                 srcset="images/portfolio/the-sacred.jpg 1x, images/portfolio/the-sacred@2x.jpg 2x"
                 alt="The Sacred"
-                width="300px"
-                height="167px"
+                width="300"
+                height="167"
                 class="img-responsive"
               />
 
@@ -447,8 +806,8 @@
                 src="images/portfolio/the-challenge-rivals.jpg"
                 srcset="images/portfolio/the-challenge-rivals.jpg 1x, images/portfolio/the-challenge-rivals@2x.jpg 2x"
                 alt="The Challenge: Rivals"
-                width="300px"
-                height="167px"
+                width="300"
+                height="167"
                 class="img-responsive"
               />
 
@@ -467,13 +826,13 @@
 
           <div class="row">
             <section class="placement col-xs-12 col-sm-4" id="dirt-3">
-              <a href="//youtube.com/watch?v=z1Y6_N23tJo" target="_blank">
+              <a href="https://youtube.com/watch?v=z1Y6_N23tJo" target="_blank">
                 <img
                   src="images/portfolio/dirt-3.jpg"
                   srcset="images/portfolio/dirt-3.jpg 1x, images/portfolio/dirt-3@2x.jpg 2x"
                   alt="DiRT 3"
-                  width="300px"
-                  height="167px"
+                  width="300"
+                  height="167"
                   class="img-responsive"
                 />
               </a>
@@ -489,19 +848,16 @@
                 <dd>'Demons' by South Central</dd>
               </dl>
 
-              <a href="//youtube.com/watch?v=z1Y6_N23tJo" target="_blank">
-                <button type="button" class="btn btn-primary">Watch "DiRT 3" on YouTube</button>
-              </a>
             </section>
 
             <section class="placement col-xs-12 col-sm-4" id="fast-five">
-              <a href="//youtube.com/watch?v=YtYUWKlx8AQ" target="_blank">
+              <a href="https://youtube.com/watch?v=YtYUWKlx8AQ" target="_blank">
                 <img
                   src="images/portfolio/fast-five.jpg"
                   srcset="images/portfolio/fast-five.jpg 1x, images/portfolio/fast-five@2x.jpg 2x"
                   alt="Fast Five"
-                  width="300px"
-                  height="167px"
+                  width="300"
+                  height="167"
                   class="img-responsive"
                 />
               </a>
@@ -511,15 +867,12 @@
                 <dd>Fast Five</dd>
 
                 <dt>Client</dt>
-                <dd>Codemasters</dd>
+                <dd>Universal Pictures</dd>
 
                 <dt>Placement</dt>
                 <dd>'Demons' by South Central</dd>
               </dl>
 
-              <a href="//youtube.com/watch?v=YtYUWKlx8AQ" target="_blank">
-                <button type="button" class="btn btn-primary">Watch "Fast Five" on YouTube</button>
-              </a>
             </section>
 
             <section class="placement col-xs-12 col-sm-4" id="test-drive-unlimited-2">
@@ -530,8 +883,8 @@
                   images/portfolio/test-drive-unlimited-2@2x.jpg 2x
                 "
                 alt="Test Drive Unlimited 2"
-                width="300px"
-                height="167px"
+                width="300"
+                height="167"
                 class="img-responsive"
               />
 
@@ -554,8 +907,8 @@
                 src="images/portfolio/true-blood.jpg"
                 srcset="images/portfolio/true-blood.jpg 1x, images/portfolio/true-blood@2x.jpg 2x"
                 alt="True Blood"
-                width="300px"
-                height="167px"
+                width="300"
+                height="167"
                 class="img-responsive"
               />
 
@@ -576,8 +929,8 @@
                 src="images/portfolio/one-tree-hill.jpg"
                 srcset="images/portfolio/one-tree-hill.jpg 1x, images/portfolio/one-tree-hill@2x.jpg 2x"
                 alt="One Tree Hill"
-                width="300px"
-                height="167px"
+                width="300"
+                height="167"
                 class="img-responsive"
               />
 
@@ -605,9 +958,9 @@
 
             <p>Portmanteau is a UK based music licensing agency for audio-visual productions from around the world.</p>
 
-            <p>Website by <a href="//razorsharp.digital" target="_blank">Razor Sharp</a>.</p>
+            <p>Website by <a href="https://razorsharp.digital" target="_blank">Razor Sharp</a>.</p>
 
-            <p>&copy; 2026 <a href="//portmanteauagency.com">Portmanteau Agency</a>.</p>
+            <p>&copy; 2026 <a href="https://portmanteauagency.com">Portmanteau Agency</a>.</p>
           </div>
 
           <div class="col-xs-12 col-sm-6">
@@ -617,7 +970,7 @@
               <dt>Email</dt>
 
               <dd>
-                <a href="mailto:info@portmanteaumusic.com"> info@portmanteaumusic.com </a>
+                <a href="mailto:info@portmanteaumusic.com">info@portmanteaumusic.com</a>
               </dd>
 
               <dt>Phone</dt>
